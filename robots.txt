@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /img/
+Disallow: /contact_admin.php
+Disallow: /effect.js
+Disallow: /privacy.html
+Disallow: /signin_admin.php
+Disallow: /style.css
+Disallow: 404.html
