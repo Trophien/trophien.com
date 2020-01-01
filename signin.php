@@ -6,12 +6,13 @@
 <html lang="en">
 <head>
   <title>Trophien Contact - Sign in</title>
-  <meta charset = "utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
-  <meta name="theme-color" content="#7D6FE9">
-  <link rel="icon" href="img/global/icon.png">
   <meta name="description" content="We produce android applications and games. Welcome to the official Trophien website and discover our world.">
   <meta name="keywords" content="trophien, trophienapps, applications, application, app, mobile, mobile app, mobile games, games">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+  <meta name="theme-color" content="#434343">
+  <link rel="icon" href="img/global/icon.png">
   <link href="style.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sarala" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -61,7 +62,8 @@
           <input type="hidden" name="action" value="cmd_signin">
           <input type="submit" class="btn btn-success float-right" value="Sign in">
         </form>
-        <a href="registration.php" class="float-left contact_link pt-2">I haven't profile yet</a> <?php
+        <a href="registration.php" class="float-left contact_link pt-2">I haven't profile yet</a><br><br>
+        <a href="forgot.php" class="float-left contact_link">I've forgot my password</a> <?php
         if(isset($_POST["action"]) && $_POST["action"] == "cmd_signin")
         {
           if(empty($_POST["input_username_email"]) || empty($_POST["input_password"]))

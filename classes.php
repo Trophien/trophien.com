@@ -4,7 +4,7 @@ class Session
 	public $servername = "localhost";
 	public $username = "root";
 	public $password = "";
-	public $dbname = "trophien";
+	public $dbname = "webpage";
 	public $conn = NULL;
 	public $sql = NULL;
 	public $result = NULL;

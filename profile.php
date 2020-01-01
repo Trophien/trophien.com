@@ -6,12 +6,12 @@ $session->sessionStart(); ?>
 <html lang="en">
 <head>
   <title>Your Trophien - Profile</title>
-  <meta charset = "utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
-  <meta name="theme-color" content="#7D6FE9">
-  <link rel="icon" href="img/global/icon.png">
   <meta name="description" content="We produce android applications and games. Welcome to the official Trophien website and discover our world.">
   <meta name="keywords" content="trophien, trophienapps, applications, application, app, mobile, mobile app, mobile games, games">
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+  <meta name="theme-color" content="#434343">
+  <link rel="icon" href="img/global/icon.png">
   <link href="style.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sarala" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -112,7 +112,7 @@ $session->sessionStart(); ?>
               <a href="index.php" class="footer_link">Home</a>
             </li>
             <li class="pt-2">
-              <a href="privacy.html" class="footer_link">Privacy policy</a>
+              <a href="privacy.php" class="footer_link">Privacy policy</a>
             </li>
             <li class="pt-2">
               <a onclick="comingSoonAlert()" class="footer_link">Terms of service</a>
@@ -123,7 +123,7 @@ $session->sessionStart(); ?>
           </ul>
         </div>
         <div class="col-md-5 pr-md-4">
-          <img src="img/global/brand_white.png" id="footer_logo" class="img-fluid float-right pt-5" ondragstart="return false;">
+          <img src="img/global/brand_footer.svg" id="footer_logo" class="img-fluid float-right pt-5" ondragstart="return false;">
         </div>
       </div>
     </div>

@@ -25,7 +25,7 @@
 
 <body id="signin" onload="birthDate()">
 <header class="container-fluid">
-  <nav class="px-5 row navbar navbar-expand-md navbar-light fixed-top" id="navbar">
+  <nav class="px-5 row navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
     <div class="container pl-1 mw-1200">
       <a class="navbar-brand" href="index.php">
         <img src="img/global/brand_white.png" id="brand" alt="">
